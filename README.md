@@ -28,13 +28,13 @@ Na camada bronze, os arquivos CSV armazenados no Volume `food_affordability.raw.
 
 A descrição completa das tabelas pode ser conferida no notebook, na seção **Create new tables (Bronze)**.
 
-### Tabela: Preços dos alimentos — `food_prices`
+### Tabela: `food_prices`
 
 **Descrição:** preços de 14 produtos alimentícios, registrados por cidade e mês. A tabela contém 10.248 linhas. A chave primária da tabela é uma combinação de cidade + mês + item.
 
 ![Descrição da tabela food_prices no catálogo](food-prices-catalog.png)
 
-### Tabela: Salários mínimos — `minimum_wages`
+### Tabela: `minimum_wages`
 
 **Descrição:** valores de salário mínimo por país ou território. A tabela contém 225 linhas. A chave primária da tabela é o código do país.
 
