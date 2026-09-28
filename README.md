@@ -20,7 +20,7 @@ Para tal, foram utilizados dados de 2026 de 71 países, provenientes do World Fo
 
 Os dados foram obtidos em formato CSV e carregados no Volume `datasets`, localizado no schema `raw` do catálogo `food_affordability`.
 
-![Volume datasets no catálogo](docs/images/catalog-overview.png)
+![Volume datasets no catálogo](catalog-overview.png)
 
 ## Modelagem e Catálogo de Dados
 
@@ -32,13 +32,13 @@ A descrição completa das tabelas pode ser conferida no notebook, na seção **
 
 **Descrição:** preços de 14 produtos alimentícios, registrados por cidade e mês. A tabela contém 10.248 linhas. A chave primária da tabela é uma combinação de cidade + mês + item.
 
-![Descrição da tabela food_prices no catálogo](docs/images/food-prices-catalog.png)
+![Descrição da tabela food_prices no catálogo](food-prices-catalog.png)
 
 ### Tabela: Salários mínimos — `minimum_wages`
 
 **Descrição:** valores de salário mínimo por país ou território. A tabela contém 225 linhas. A chave primária da tabela é o código do país.
 
-![Descrição da tabela minimum_wages no catálogo](docs/images/minimum-wages-catalog.png)
+![Descrição da tabela minimum_wages no catálogo](minimum-wages-catalog.png)
 
 ## Qualidade dos Dados
 
